@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevTrackR.API</name>
+    </assembly>
+    <members>
+        <member name="M:DevTrackR.API.Controllers.PackagesController.Post(DevTrackR.API.Models.AddPackageInputModel)">
+            <summary>
+            Cadastro de um pacote
+            </summary>
+            <remarks>
+            {
+            "title": Pacote de jogos,
+            "weight": 1.8,
+            "senderName": Gabriel,
+            "senderEmail": tokac25891@dakcans.com
+            }
+            </remarks>
+            <param name="model">Dados do pacote</param>
+            <returns>Objeto recém criado</returns>
+            <response code="201">Cadastro realizado com sucesso</response>
+            <response code="400">Dados estão inválidos</response>
+        </member>
+    </members>
+</doc>
